@@ -1,0 +1,18 @@
+{
+  "window.zoomLevel": 1,
+  "files.eol": "\n",
+  "files.autoSave": "onFocusChange",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "jsx",
+    "typescriptreact": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "javascript.format.enable": false,
+
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
+}
