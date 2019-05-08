@@ -25,3 +25,12 @@ npm list -g --depth=0
 ├── npm@6.4.1
 └── umi@2.6.2
 ```
+
+
+## On npm install: Unhandled rejection Error: EACCES: permission denied
+
+Give ownership to npm like this:
+```
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+```
