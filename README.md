@@ -1,15 +1,46 @@
 # vscode-settings
+
 My VsCode settings
 
+#### Useful shortcut (by default):
+
+```
+Balance outward
+[editor.action.smartSelect.grow]
+`Shift + alt + right`
+```
+
+```
+Balance inward
+[editor.action.smartSelect.shrink]
+`Shift + alt + left`
+```
+
+```
+Split Selection Into Lines
+[editor.action.insertCursorAtEndOfEachLineSelected]
+`Shift + alt + i`
+```
+
+```
+Multiple-Line Comment/Toggle Block Comment
+[editor.action.blockComment]
+`Shift + alt + A`
+```
+
+#### Additional useful shorcut to add:
+
+```
 {
-  "key": "ctrl+k ctrl+l",
-  "command": "editor.action.transformToLowercase"
-}
-{
-  "key": "ctrl+k ctrl+u",
-  "command": "editor.action.transformToUppercase"
+"key": "ctrl+k ctrl+l",
+"command": "editor.action.transformToLowercase"
 }
 
+{
+"key": "ctrl+k ctrl+u",
+"command": "editor.action.transformToUppercase"
+}
+```
 
 # npm setting
 
@@ -26,10 +57,10 @@ npm list -g --depth=0
 └── umi@2.6.2
 ```
 
-
 ## On npm install: Unhandled rejection Error: EACCES: permission denied
 
 Give ownership to npm like this:
+
 ```
 sudo chown -R $USER:$GROUP ~/.npm
 sudo chown -R $USER:$GROUP ~/.config
