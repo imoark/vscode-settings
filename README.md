@@ -28,6 +28,10 @@ Multiple-Line Comment/Toggle Block Comment
 `Shift + alt + A`
 ```
 
+Good reading from VS Code website:
+
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
 #### Additional useful shorcut to add:
 
 ```
@@ -45,8 +49,6 @@ Multiple-Line Comment/Toggle Block Comment
   "key": "ctrl+alt+n",
   "command": "workbench.action.duplicateWorkspaceInNewWindow"
 }
-
-
 ```
 
 # npm setting
