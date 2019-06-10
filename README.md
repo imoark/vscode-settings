@@ -40,6 +40,13 @@ Multiple-Line Comment/Toggle Block Comment
 "key": "ctrl+k ctrl+u",
 "command": "editor.action.transformToUppercase"
 }
+
+{
+  "key": "ctrl+alt+n",
+  "command": "workbench.action.duplicateWorkspaceInNewWindow"
+}
+
+
 ```
 
 # npm setting
