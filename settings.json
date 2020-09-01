@@ -45,5 +45,12 @@
   "scss.validate": false,
   "files.associations": {},
 
+  // html formatter
+  // switch between vscode and prettier formatter, cause prettier is buggy
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
 }
