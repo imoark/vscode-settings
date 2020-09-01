@@ -2,6 +2,7 @@
   "window.zoomLevel": 1,
   "files.eol": "\n",
   "files.autoSave": "onFocusChange",
+
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
@@ -15,6 +16,8 @@
   // These are an obsolete prettier settings
   // "prettier.eslintIntegration": false,
   // "prettier.stylelintIntegration": true,
+  // Use eslint config as the rules for prettier
+
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   // New Lint Intergration
@@ -26,11 +29,13 @@
     // For Stylelint
     "source.fixAll.stylelint": true
   },
+
   // TODO-Tree
   "todo-tree.tree.showScanModeButton": true,
   "todo-tree.filtering.excludeGlobs": ["**/node_modules/**"],
   "todo-tree.general.debug": true,
   "todo-tree.general.enableFileWatcher": true,
+
   // stylelint settings
   "stylelint.enable": true,
   "css.validate": false,
