@@ -12,6 +12,8 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "emmet.excludeLanguages": ["markdown"],
+
   "editor.formatOnSave": true,
   // These are an obsolete prettier settings
   // "prettier.eslintIntegration": false,
