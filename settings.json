@@ -52,5 +52,11 @@
     // "editor.defaultFormatter": "vscode.html-language-features"
   },
 
+  // less formatter
+  // switch between vscode and prettier formatter, cause prettier is buggy
+   "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
 }
